@@ -4,7 +4,7 @@
   <subtitle><![CDATA[All or Nothing]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://cantbesure.github.io/"/>
-  <updated>2016-03-28T11:39:28.642Z</updated>
+  <updated>2016-03-31T08:56:52.401Z</updated>
   <id>http://cantbesure.github.io/</id>
   
   <author>
@@ -19,7 +19,7 @@
     <link href="http://cantbesure.github.io/2016/03/28/Caj-Problem/"/>
     <id>http://cantbesure.github.io/2016/03/28/Caj-Problem/</id>
     <published>2016-03-28T03:42:21.000Z</published>
-    <updated>2016-03-28T11:39:28.642Z</updated>
+    <updated>2016-03-31T08:56:52.401Z</updated>
     <content type="html"><![CDATA[<p>Win7系统，用知网看论文的时候发现CAJ格式的无法打开，提示CAJ文件不存在或不能正常访问。<br>可能是有些软件引发冲突，或者安装了Windows更新时出现了问题。</p>
 <h2 id="u89E3_u51B3_u529E_u6CD51"><a href="#u89E3_u51B3_u529E_u6CD51" class="headerlink" title="解决办法1"></a>解决办法1</h2><p>点击开始菜单，输入<strong>regeit</strong>，回车，如果系统要求权限，点击是<br>找到<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">HKEY_CURRENT_USER-&gt;SOFTWARE-&gt;TTKN和TTOD</span><br></pre></td></tr></table></figure></p>
 <p>删除两个文件夹<br>尝试打开CAJ文件，如果依然不行，删除CAJ程序，如上清理注册表，再安装</p>
@@ -29,6 +29,8 @@
     <![CDATA[<p>Win7系统，用知网看论文的时候发现CAJ格式的无法打开，提示CAJ文件不存在或不能正常访问。<br>可能是有些软件引发冲突，或者安装了Windows更新时出现了问题。</p>
 <h2 id="u89E3_u51B3_u529E_u6CD51"><a href="#u89E]]>
     </summary>
+    
+      <category term="实用技巧" scheme="http://cantbesure.github.io/categories/skills/"/>
     
   </entry>
   
