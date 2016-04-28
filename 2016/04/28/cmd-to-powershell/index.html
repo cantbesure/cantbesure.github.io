@@ -3,17 +3,21 @@
 <head>
   <meta charset="utf-8">
   
-  <title>Archives: 2016 | Creed</title>
+  <title>用PowerShell取代cmd | Creed</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="一个简单的博客">
-<meta property="og:type" content="website">
-<meta property="og:title" content="Creed">
-<meta property="og:url" content="http://cantbesure.github.io/archives/2016/index.html">
+  <meta name="description" content="如果使用Windows进行开发，时常使用命令行，一般都是cmd，后来发现PowerShell更加好用，于是着手将两处处经常打开这些工具的地方替换一下（Win 10 Pro）
+替换 Windows+x 百宝箱快捷中的cmd如果之前没有试过可以尝试按下Windows+x,你会发现出现了许多好用的功能。其中有两项，I和A，分别是命令行以及管理员命令行，非常方便我们在任务栏空白处单击右键属性-&amp;gt;导航">
+<meta property="og:type" content="article">
+<meta property="og:title" content="用PowerShell取代cmd">
+<meta property="og:url" content="http://cantbesure.github.io/2016/04/28/cmd-to-powershell/index.html">
 <meta property="og:site_name" content="Creed">
-<meta property="og:description" content="一个简单的博客">
+<meta property="og:description" content="如果使用Windows进行开发，时常使用命令行，一般都是cmd，后来发现PowerShell更加好用，于是着手将两处处经常打开这些工具的地方替换一下（Win 10 Pro）
+替换 Windows+x 百宝箱快捷中的cmd如果之前没有试过可以尝试按下Windows+x,你会发现出现了许多好用的功能。其中有两项，I和A，分别是命令行以及管理员命令行，非常方便我们在任务栏空白处单击右键属性-&amp;gt;导航">
+<meta property="og:updated_time" content="2016-04-28T03:25:05.346Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Creed">
-<meta name="twitter:description" content="一个简单的博客">
+<meta name="twitter:title" content="用PowerShell取代cmd">
+<meta name="twitter:description" content="如果使用Windows进行开发，时常使用命令行，一般都是cmd，后来发现PowerShell更加好用，于是着手将两处处经常打开这些工具的地方替换一下（Win 10 Pro）
+替换 Windows+x 百宝箱快捷中的cmd如果之前没有试过可以尝试按下Windows+x,你会发现出现了许多好用的功能。其中有两项，I和A，分别是命令行以及管理员命令行，非常方便我们在任务栏空白处单击右键属性-&amp;gt;导航">
   
     <link rel="alternative" href="/atom.xml" title="Creed" type="application/atom+xml">
   
@@ -42,8 +46,8 @@
           fancybox: true,
           animate: true,
           isHome: false,
-          isPost: false,
-          isArchive: true,
+          isPost: true,
+          isArchive: false,
           isTag: false,
           isCategory: false,
           open_in_new: false,
@@ -231,116 +235,200 @@
         </header>                
     </div>
 </nav>
-      <div class="body-wrap">
+      <div class="body-wrap"><article id="post-cmd-to-powershell" class="article article-type-post" itemscope itemprop="blogPost">
   
-  
-    
-    
-      
-      
-      <section class="archives-wrap">
-        <div class="archive-year-wrap">
-          <a href="/archives/2016" class="archive-year">2016</a>
-        </div>
-        <div class="archives">
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-          <div class="article-meta">
-              <a href="/2016/04/28/cmd-to-powershell/" class="archive-article-date">
-      <time datetime="2016-04-28T02:54:17.000Z" itemprop="datePublished">04-28</time>
+    <div class="article-meta">
+      <a href="/2016/04/28/cmd-to-powershell/" class="article-date">
+      <time datetime="2016-04-28T02:54:17.000Z" itemprop="datePublished">2016-04-28</time>
 </a>
-        </div>
-         
+    </div>
   
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2016/04/28/cmd-to-powershell/">用PowerShell取代cmd</a>
+  <div class="article-inner">
+    
+      <input type="hidden" class="isFancy" />
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 class="article-title" itemprop="name">
+      用PowerShell取代cmd
     </h1>
   
 
-        <div class="article-info info-on-archive">
-          
+      </header>
+      
+      <div class="article-info article-info-post">
+        
     <div class="article-category tagcloud">
     <a class="article-category-link" href="/categories/skills/">实用技巧</a>
     </div>
 
 
-          
-        </div>
+        
         <div class="clearfix"></div>
-    </header>
-  </div>
-</article>
-  
+      </div>
+      
     
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-          <div class="article-meta">
-              <a href="/2016/04/04/Life-of-exchange-student/" class="archive-article-date">
-      <time datetime="2016-04-04T04:58:40.000Z" itemprop="datePublished">04-04</time>
-</a>
-        </div>
-         
-  
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2016/04/04/Life-of-exchange-student/">法兰西的交换生时光</a>
-    </h1>
-  
-
-        <div class="article-info info-on-archive">
+    <div class="article-entry" itemprop="articleBody">
+      
           
-    <div class="article-category tagcloud">
-    <a class="article-category-link" href="/categories/life/">生活</a>
+        <p>如果使用Windows进行开发，时常使用命令行，一般都是cmd，后来发现PowerShell更加好用，于是着手将两处处经常打开这些工具的地方替换一下（Win 10 Pro）</p>
+<h2 id="u66FF_u6362_Windows+x__u767E_u5B9D_u7BB1_u5FEB_u6377_u4E2D_u7684cmd"><a href="#u66FF_u6362_Windows+x__u767E_u5B9D_u7BB1_u5FEB_u6377_u4E2D_u7684cmd" class="headerlink" title="替换 Windows+x 百宝箱快捷中的cmd"></a>替换 Windows+x 百宝箱快捷中的cmd</h2><p>如果之前没有试过可以尝试按下<strong>Windows+x</strong>,你会发现出现了许多好用的功能。<br>其中有两项，I和A，分别是命令行以及管理员命令行，非常方便<br>我们在任务栏空白处单击右键<strong>属性-&gt;导航</strong>，这个选项卡中的<strong>“当我右键单击右下角或按下windows键+X时，在菜单中将命令提示符替换为Windows PowerShell”</strong>勾选<br>再试试就可以了。</p>
+<h2 id="u66FF_u6362_Shift+_u9F20_u6807_u53F3_u952E__u7684_u5728_u6B64_u5904_u6253_u5F00_u547D_u4EE4_u884C_u7A97_u53E3"><a href="#u66FF_u6362_Shift+_u9F20_u6807_u53F3_u952E__u7684_u5728_u6B64_u5904_u6253_u5F00_u547D_u4EE4_u884C_u7A97_u53E3" class="headerlink" title="替换 Shift+鼠标右键 的在此处打开命令行窗口"></a>替换 Shift+鼠标右键 的在此处打开命令行窗口</h2><p>在注册表中找到</p>
+<blockquote>
+<p>[HKEY_CLASSES_ROOT\Directory\Background\shell\cmd\command]</p>
+</blockquote>
+<p>替换</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">cmd.exe /s /k <span class="built_in">pushd</span> <span class="string">"%V"</span></span><br></pre></td></tr></table></figure>
+<p>为<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">powershell.exe -NoExit Set-Location <span class="string">"%V"</span></span><br></pre></td></tr></table></figure></p>
+
+      
+    </div>
+    
+  </div>
+  
+    
+    <div class="copyright">
+        <p><span>本文標題:</span><a href="/2016/04/28/cmd-to-powershell/">用PowerShell取代cmd</a></p>
+        <p><span>文章作者:</span><a href="/" title="回到主頁">Sure Lee</a></p>
+        <p><span>發布時間:</span>2016-04-28, 10:54:17</p>
+        <p><span>最後更新:</span>2016-04-28, 11:25:05</p>
+        <p>
+            <span>原始鏈接:</span><a class="post-url" href="/2016/04/28/cmd-to-powershell/" title="用PowerShell取代cmd">http://cantbesure.github.io/2016/04/28/cmd-to-powershell/</a>
+            <span class="copy-path" data-clipboard-text="原文: http://cantbesure.github.io/2016/04/28/cmd-to-powershell/　　作者: Sure Lee" title="點擊複製文章鏈接"><i class="fa fa-clipboard"></i></span>
+            <script src="/js/clipboard.min.js"></script>
+            <script> var clipboard = new Clipboard('.copy-path'); </script>
+        </p>
+        <p>
+            <span>許可協議:</span><i class="fa fa-creative-commons"></i> <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/" title="CC BY-NC-SA 4.0 International" target = "_blank">"署名-非商用-相同方式共享 4.0"</a> 轉載請保留原文鏈接及作者。
+        </p>
     </div>
 
 
-          
-        </div>
-        <div class="clearfix"></div>
-    </header>
-  </div>
-</article>
-  
-    
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-          <div class="article-meta">
-              <a href="/2016/03/28/Caj-Problem/" class="archive-article-date">
-      <time datetime="2016-03-28T03:42:21.000Z" itemprop="datePublished">03-28</time>
-</a>
-        </div>
-         
-  
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2016/03/28/Caj-Problem/">解决CAJ文件不存在或不能正常访问</a>
-    </h1>
-  
 
-        <div class="article-info info-on-archive">
-          
-    <div class="article-category tagcloud">
-    <a class="article-category-link" href="/categories/skills/">实用技巧</a>
+    <nav id="article-nav">
+        
+        
+            <div id="article-nav-older" class="article-nav-title">
+                <a href="/2016/04/04/Life-of-exchange-student/">
+                    法兰西的交换生时光
+                </a>
+            </div>
+        
+    </nav>
+
+  
+</article>
+
+    <div id="toc" class="toc-article">
+    <strong class="toc-title">文章目錄</strong>
+    <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#u66FF_u6362_Windows+x__u767E_u5B9D_u7BB1_u5FEB_u6377_u4E2D_u7684cmd"><span class="toc-number">1.</span> <span class="toc-text">替换 Windows+x 百宝箱快捷中的cmd</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#u66FF_u6362_Shift+_u9F20_u6807_u53F3_u952E__u7684_u5728_u6B64_u5904_u6253_u5F00_u547D_u4EE4_u884C_u7A97_u53E3"><span class="toc-number">2.</span> <span class="toc-text">替换 Shift+鼠标右键 的在此处打开命令行窗口</span></a></li></ol>
+</div>
+<style>
+    .left-col .switch-btn {
+        display: none;
+    }
+    .left-col .switch-area {
+        display: none;
+    }
+</style>
+
+<input type="button" id="tocButton" value="隱藏目錄"  title="點擊按鈕隱藏或者顯示文章目錄">
+<script>
+    var valueHide = "隱藏目錄";
+    var valueShow = "顯示目錄";
+
+    if ($(".left-col").is(":hidden")) {
+        $("#tocButton").attr("value", valueShow);
+    }
+
+    $("#tocButton").click(function() {
+        if ($("#toc").is(":hidden")) {
+            $("#tocButton").attr("value", valueHide);
+            $("#toc").slideDown(320);
+            $(".switch-btn, .switch-area").fadeOut(300);
+        }
+        else {
+            $("#tocButton").attr("value", valueShow);
+            $("#toc").slideUp(350);
+            $(".switch-btn, .switch-area").fadeIn(500);
+        }
+    })
+
+    if ($(".toc").length < 1) {
+        $("#toc, #tocButton").hide();
+        $(".switch-btn, .switch-area").show();
+    }
+</script>
+
+
+
+
+    <div class="share">
+    <div class="bdsharebuttonbox">
+    <a href="#" class="bds_more" data-cmd="more"></a>
+    <a href="#" class="bds_tsina" data-cmd="tsina" title="分享到新浪微博"></a>
+    <a href="#" class="bds_sqq" data-cmd="sqq" title="分享给 QQ 好友"></a>
+    <a href="#" class="bds_copy" data-cmd="copy" title="复制网址"></a>
+    <a href="#" class="bds_mail" data-cmd="mail" title="通过邮件分享"></a>
+    <a href="#" class="bds_weixin" data-cmd="weixin" title="生成文章二维码"></a>
+    </div>
+    <script>
+        window._bd_share_config={
+            "common":{"bdSnsKey":{},"bdText":"","bdMini":"2","bdMiniList":false,"bdPic":"","bdStyle":"0","bdSize":"24"},"share":{}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];
+    </script>
+</div>
+
+
+
+    
+      <div class="duoshuo" id="comments">
+    <!-- 多说评论框 start -->
+    <div class="ds-thread" data-thread-key="2016/04/28/cmd-to-powershell/" data-title="用PowerShell取代cmd" data-url="http://cantbesure.github.io/2016/04/28/cmd-to-powershell/"></div>
+    <!-- 多说评论框 end -->
+    <!-- 多说公共JS代码 start (一个网页只需插入一次) -->
+    <script type="text/javascript">
+    var duoshuoQuery = {short_name:"cantbesure"};
+    (function() {
+        var ds = document.createElement('script');
+        ds.type = 'text/javascript';ds.async = true;
+        ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
+        ds.charset = 'UTF-8';
+        (document.getElementsByTagName('head')[0] 
+         || document.getElementsByTagName('body')[0]).appendChild(ds);
+    })();
+    </script>
+    <!-- 多说公共JS代码 end -->
+</div>
+
+    
+
+
+
+
+    <div class="scroll" id="post-nav-button">
+        
+            <a href="/" title="回到主頁"><i class="fa fa-home"></i></a>
+        
+
+        <a title="文章列表"><i class="fa fa-bars"></i><i class="fa fa-times"></i></a>
+
+        
+            <a href="/2016/04/04/Life-of-exchange-student/" title="下一篇: 法兰西的交换生时光">
+                <i class="fa fa-angle-right"></i>
+            </a>
+        
     </div>
 
+    <ul class="post-list"><li class="post-list-item"><a class="post-list-link" href="/2016/04/28/cmd-to-powershell/">用PowerShell取代cmd</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/04/04/Life-of-exchange-student/">法兰西的交换生时光</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/03/28/Caj-Problem/">解决CAJ文件不存在或不能正常访问</a></li></ul>
 
-          
-        </div>
-        <div class="clearfix"></div>
-    </header>
-  </div>
-</article>
-  
-  
-    </div></section>
-  
 
-    
 
+
+    <script>
+        
+    </script>
 </div>
       <footer id="footer">
     <div class="outer">
